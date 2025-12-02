@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Sudoku Genius</string>
+
+    <string name="start_game">Start Game</string>
+    <string name="learning_center">Learning Center</string>
+    <string name="settings">Settings</string>
+
+    <string name="game_title">Sudoku</string>
+    <string name="back">Back</string>
+    <string name="new_game">New Game</string>
+    <string name="hint">Hint</string>
+    <string name="moves_format">Moves: %d</string>
+    <string name="time_format">%02d:%02d</string>
+
+    <string name="pencil_mode_on">Pencil Mode: ON</string>
+    <string name="pencil_mode_off">Pencil Mode: OFF</string>
+    <string name="cannot_edit_initial">Cannot edit initial numbers</string>
+    <string name="select_cell_first">Please select a cell first</string>
+    <string name="game_won">Congratulations! Time: %d s</string>
+    <string name="game_error">Error: %s</string>
+    <string name="hint_used">Hint used: %d</string>
+    <string name="invalid_move">Invalid move!</string>
+    <string name="number_incorrect">Incorrect number</string>
+
+    <string name="select_difficulty">Select Difficulty</string>
+    <string name="game_settings">Game Settings</string>
+
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="difficulty_expert">Expert</string>
+
+    <string name="enable_hints">Enable Hints</string>
+    <string name="auto_check_errors">Auto Check Errors</string>
+
+    <string name="vibrate_on_tap">Vibrate</string>
+    <string name="sound_settings">Sound</string>
+    <string name="music_volume">Music</string>
+    <string name="sound_effects_volume">Effects</string>
+
+    <string name="save_settings">Save</string>
+    <string name="reset_defaults">Reset</string>
+    <string name="settings_saved">Settings Saved</string>
+    <string name="settings_reset">Reset to defaults</string>
+
+    <string name="learning_center_title">Sudoku Academy</string>
+    <string name="got_it">Got it</string>
+
+    <string name="topic_1_title">Basic Rules</string>
+    <string name="topic_1_desc">Learn the goal and rules of Sudoku.</string>
+    <string name="topic_1_content">
+        The goal of Sudoku is to fill a 9x9 grid with numbers so that each row, column and 3x3 section contain all of the digits between 1 and 9.\n\n
+        1. **Row**: A horizontal line of 9 cells.\n
+        2. **Column**: A vertical line of 9 cells.\n
+        3. **Box**: A 3x3 sub-grid area.\n\n
+        At the beginning of the game, the 9x9 grid will have some of the squares filled in. You cannot change these initial numbers.
+    </string>
+
+    <string name="topic_2_title">Single Candidate</string>
+    <string name="topic_2_desc">The simplest solving technique.</string>
+    <string name="topic_2_content">
+        This is the most basic strategy. When you look at a specific cell, check its Row, Column, and Box.\n\n
+        If 8 different numbers already exist in these areas combined, the current cell MUST be the remaining 9th number.\n\n
+        Example: If a row has 1,2,3,4,5,6,7,8, the empty spot must be 9.
+    </string>
+
+    <string name="topic_3_title">Hidden Single</string>
+    <string name="topic_3_desc">Finding where a number must go.</string>
+    <string name="topic_3_content">
+        Instead of looking at a cell, look at a number (e.g., \"1\"). Focus on a 3x3 Box.\n\n
+        Check the rows and columns passing through that box. If they already contain a \"1\", those positions in the box are blocked.\n\n
+        If only one cell remains in that box that isn\'t blocked, that cell MUST contain the \"1\".
+    </string>
+
+    <string name="game_resumed">Game Resumed</string>
+    <string name="about_title">About</string>
+    <string name="about_story_title">The Story Behind Sudoku Genius</string>
+    <string name="about_story_content">
+        Most Sudoku apps focus only on solving puzzles, but I wanted to create something different. Sudoku Genius was born from the idea that logic is a skill that can be taught.\n\n
+        Designed with a focus on clean UI and educational value, this app aims to help players understand the "Why" behind every move, transforming beginners into masters through practice and learning.
+    </string>
+    <string name="about_developer">Developed by Yang Xiaotian</string>
+</resources>

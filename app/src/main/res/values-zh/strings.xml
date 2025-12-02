@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">数独天才</string>
+
+    <string name="start_game">开始游戏</string>
+    <string name="learning_center">学习中心</string>
+    <string name="settings">设置</string>
+
+    <string name="game_title">数独游戏</string>
+    <string name="back">返回</string>
+    <string name="new_game">新游戏</string>
+    <string name="hint">提示</string>
+    <string name="moves_format">步数: %d</string>
+    <string name="time_format">%02d:%02d</string>
+
+    <string name="pencil_mode_on">笔记模式: 开启</string>
+    <string name="pencil_mode_off">笔记模式: 关闭</string>
+    <string name="cannot_edit_initial">初始数字不可修改</string>
+    <string name="select_cell_first">请先选择一个格子</string>
+    <string name="game_won">恭喜！用时: %d 秒</string>
+    <string name="game_error">错误: %s</string>
+    <string name="hint_used">使用了提示: %d</string>
+    <string name="invalid_move">无效移动！</string>
+    <string name="number_incorrect">数字不正确</string>
+
+    <string name="select_difficulty">难度选择</string>
+    <string name="game_settings">游戏设置</string>
+
+    <string name="difficulty_easy">简单</string>
+    <string name="difficulty_medium">中等</string>
+    <string name="difficulty_hard">困难</string>
+    <string name="difficulty_expert">专家</string>
+
+    <string name="enable_hints">启用提示按钮</string>
+    <string name="auto_check_errors">自动检查错误</string>
+
+    <string name="vibrate_on_tap">按键震动</string>
+    <string name="sound_settings">声音设置</string>
+    <string name="music_volume">音乐音量</string>
+    <string name="sound_effects_volume">音效音量</string>
+
+    <string name="save_settings">保存设置</string>
+    <string name="reset_defaults">重置默认</string>
+    <string name="settings_saved">设置已保存</string>
+    <string name="settings_reset">已重置为默认设置</string>
+
+    <string name="learning_center_title">数独学院</string>
+    <string name="got_it">明白了</string>
+
+    <string name="topic_1_title">基本规则 (Basic Rules)</string>
+    <string name="topic_1_desc">了解数独的基础玩法和目标。</string>
+    <string name="topic_1_content">
+        数独的目标是在 9x9 的网格中填入数字，使得每一行、每一列以及每一个 3x3 的宫（粗线区域）都包含数字 1 到 9，且不重复。\n\n
+        1. **行 (Row)**: 横向的 9 个格子。\n
+        2. **列 (Column)**: 纵向的 9 个格子。\n
+        3. **宫 (Box)**: 3x3 的小九宫格区域。\n\n
+        游戏开始时，盘面上已经有一些数字，你不能修改它们。你需要通过逻辑推理填满剩下的空格。
+    </string>
+
+    <string name="topic_2_title">唯一数法 (Single Candidate)</string>
+    <string name="topic_2_desc">最基础的填数技巧。</string>
+    <string name="topic_2_content">
+        这是最简单的技巧。当你观察某一个格子时，如果发现它的行、列和宫里已经出现了 1 到 9 中的 8 个数字，那么这个格子只能填剩下的那个数字。\n\n
+        例如：如果某一行已经有了 1,2,3,4,5,6,7,8，剩下的那个空格必须是 9。
+    </string>
+
+    <string name="topic_3_title">摒除法 (Hidden Single)</string>
+    <string name="topic_3_desc">通过排除法确认数字位置。</string>
+    <string name="topic_3_content">
+        不仅仅看格子，我们要看数字。观察某个 3x3 的宫，如果你想知道数字 \"1\" 应该填在哪里。\n\n
+        你可以查看穿过这个宫的行和列。如果某些行或列已经有 \"1\" 了，那么这些行/列在当前宫内的格子就不能再填 \"1\"。如果排除后只剩下一个空格，那这里就是 \"1\" 的位置。
+    </string>
+
+    <string name="game_resumed">游戏进度已恢复</string>
+    <string name="about_title">关于应用</string>
+    <string name="about_story_title">设计理念</string>
+    <string name="about_story_content">
+        大多数数独应用只关注解题，但我想创造一些不同的东西。Sudoku Genius 诞生的初衷是：逻辑是一种可以被传授的技能。\n\n
+        本应用专注于简洁的 UI 设计和教育价值，旨在帮助玩家理解每一步背后的“为什么”，通过练习和学习，将初学者培养成数独大师。
+    </string>
+    <string name="about_developer">开发者：Yang Xiaotian</string>
+</resources>
