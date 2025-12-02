@@ -99,4 +99,4 @@ com.example.sudokugenius
 **Yang Xiaotian**
 * **Student ID:** 59534065
 * **Project:** Final Individual Project
-* **Course:** Mobile Application Design
+* **Course:** Mobile Application Development
