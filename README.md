@@ -73,3 +73,30 @@ com.example.sudokugenius
 │   ├── activity    // (Game, Main, Settings, Learning, About)
 │   └── custom      // (SudokuBoardView, NumberPadView)
 └── util            // (GameSettings)
+
+## 🚀 Getting Started
+
+### Prerequisites
+* Android Studio Ladybug | 2024.2.1 or newer.
+* JDK 1.8 or higher.
+* Android SDK API Level 26 (Android 8.0) or higher.
+
+### Installation
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YourUsername/SudokuGenius.git](https://github.com/YourUsername/SudokuGenius.git)
+    ```
+2.  **Open in Android Studio:**
+    * Select "Open an Existing Project" and navigate to the folder.
+3.  **Build and Run:**
+    * Wait for Gradle sync to complete.
+    * Click the "Run" button (green play icon) to deploy to an emulator or physical device.
+
+---
+
+## 👨‍💻 Author
+
+**Yang Xiaotian**
+* **Student ID:** 59534065
+* **Project:** Final Individual Project
+* **Course:** Mobile Application Design
