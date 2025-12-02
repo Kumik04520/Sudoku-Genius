@@ -61,3 +61,15 @@ This project strictly follows the **MVP (Model-View-Presenter)** architectural p
 ---
 
 ## 📂 Project Structure
+
+```text
+com.example.sudokugenius
+├── base            // (BaseView, BasePresenter)
+├── model           // 
+│   ├── entity      // (Puzzle, Difficulty, Position)
+│   └── repository  // (PuzzleRepositoryImpl)
+├── presenter       // (GamePresenter, MainPresenter)
+├── view            // 
+│   ├── activity    // (Game, Main, Settings, Learning, About)
+│   └── custom      // (SudokuBoardView, NumberPadView)
+└── util            // (GameSettings)
